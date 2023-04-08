@@ -1,0 +1,17 @@
+{
+  "name": "Lorem Ipsum Forever",
+  "version": "1.4",
+  "manifest_version": 3,
+  "description": "Ajoute des paragraphes de Lorem Ipsum aléatoires à chaque page web que vous visitez.",
+  "background": {
+    "service_worker": "background.js"
+  },
+  "icons": {
+    "16": "headline16.png",
+    "32": "headline32.png",
+    "128": "headline128.png",
+    "512": "headline512.png"
+  },
+  "permissions": ["scripting", "activeTab", "webNavigation"],
+  "host_permissions": ["<all_urls>"]
+}
